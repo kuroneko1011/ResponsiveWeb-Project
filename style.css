@@ -1,0 +1,38 @@
+/* ------------------ Style bootstrap --------------------  */
+@import url('https://fonts.google.com/specimen/Merriweather');
+
+#header{
+    min-height: 70px;
+    background: #06ff89
+    ;
+};
+#logo{
+    display: inline-block!important;
+    margin-right: 30px!important;
+};
+#background{
+    width: auto;
+    background-image: url('images/banner.png');
+    height: 45vw;
+}
+#content{
+    min-height: 200px!important;
+};
+#footer{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+#h2 {
+    font-size: 2.5em;
+}
+
+.nav-item {
+    font-size: 1.3em;
+    padding-bottom: 0.38em;
+}
+
+#main-nav {
+    justify-content: flex-end;
+}
+
